@@ -21,7 +21,7 @@ export const Contact = styled.h1`
 color: #2D8B49;
 font-weight: 400;
 font-size: 32px;
-margin: 20px 0 20px -18%;
+margin: 24% 0 20px -18%;
 
 @media only screen and (max-width: 720px) {
     display:none;
@@ -33,8 +33,9 @@ color: #2D8B49;
 font-weight: 400;
 font-size: 32px;
 margin: 20px 14px;
+width:500px;
 @media only screen and (max-width: 810px) {
-    
+    width:auto
 }
 
 `
@@ -44,4 +45,8 @@ font-size: 20px;
 text-align: left;
 line-height:28px;
 color: #828282;
+width: 600px;
+@media only screen and (max-width: 810px) {
+    width:auto;
+}
 `

@@ -14,7 +14,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 @media only screen and (max-width: 810px) {
     margin: 0 ;
-    width:100%;
+    width:123%;
     border:none;
     padding-bottom: 0px;
    
@@ -91,7 +91,7 @@ export const SplitBar = styled.img`
 position: absolute;
 top:10%;
 left: 35%;
-height: 296%;
+height: 150%;
 filter: invert(54%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(95%) contrast(87%);
 
 @media only screen and (max-width: 810px) {
@@ -99,14 +99,47 @@ filter: invert(54%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(95%) co
 }
 `
 export const ProfileContainer = styled.div`
-    position: relative;
-    left: 34%;
-    bottom: 300px;
-    width: 764px;
+   position: absolute;
+left: 36%;
+bottom: 57%;
+width: 764px;
     @media only screen and (max-width: 810px) {
   position:static;
   width:auto;
 }
 `
 export const Experience = styled.div`
+position: absolute;
+left: 36%;
+top: 41%;
+width: 54%;
+
+@media only screen and (max-width: 810px) {
+  position:static;
+  width:auto;
+}
+`
+export const SoftwareToolsIn = styled.div`
+position: absolute;
+top: 90%;
+left: 36%;
+@media only screen and (max-width: 810px) {
+  position:static;
+  width:auto;
+}
+`
+export const LangP = styled.div`
+position: absolute;
+left:17%;
+bottom:-80%;
+
+h1{
+    position: relative;
+    left: 36%;
+top: -130px;
+}
+@media only screen and (max-width: 810px) {
+    position:static;
+   h1{ position:static;}
+}
 `
